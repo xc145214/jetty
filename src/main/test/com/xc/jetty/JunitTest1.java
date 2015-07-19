@@ -10,6 +10,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * Created by Administrator on 2015/7/19.
+ * 基本demo
  */
 public class JunitTest1 {
     private Collection collection;

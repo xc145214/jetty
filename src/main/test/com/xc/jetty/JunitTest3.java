@@ -1,14 +1,17 @@
 package com.xc.jetty;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
  * Created by Administrator on 2015/7/19.
- *  Expected Exception Test
+ * ignore test
  */
-public class JunitTest2 {
-    @Test(expected = ArithmeticException.class)
+public class JunitTest3 {
+
+    @Ignore
+    @Test
     public void divisionWithException() {
-        int i = 1 / 0;
+        System.out.println("Method is not ready yet");
     }
 }
